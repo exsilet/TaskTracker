@@ -14,12 +14,19 @@
 3. Открыть https://localhost:5219/swagger/index.html
 
 ## 📁 Структура
+
 TaskTracker/
+
 ├── TaskTracker.API/
+
 ├── TaskTracker.Application/
+
 ├── TaskTracker.Domain/
+
 ├── TaskTracker.Infrastructure/
+
 ├── docker-compose.yml
+
 └── README.md
 
 
