@@ -1,0 +1,66 @@
+## .gitignore для .NET проекта
+
+# Игнорируем Rider настройки
+.idea/
+*.sln.iml
+*.user
+*.userosscache
+*.sln.docstates
+
+# Игнорируем Visual Studio файлы
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Игнорируем результаты сборки
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+out/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Игнорируем NuGet
+[Nn]u[Gg]et/
+*.nuproj
+*.nupkg
+packages/
+
+# Игнорируем локальные настройки
+appsettings.Development.json
+appsettings.Local.json
+
+# Игнорируем базы данных
+*.db
+*.mdf
+*.ldf
+
+# Игнорируем миграции (их можно пересоздать)
+# TaskTracker.Infrastructure/Migrations/
+
+# Игнорируем Docker файлы кроме docker-compose
+docker-compose.override.yml
+
+# Игнорируем логи
+*.log
+*.log.*
+
+# Игнорируем временные файлы
+*.tmp
+*.temp
+*~
+
+# Игнорируем резервные копии
+*.bak
+*.backup
+
+# Игнорируем Mac
+.DS_Store
+
+# Игнорируем Linux
+Thumbs.db
