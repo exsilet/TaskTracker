@@ -11,7 +11,7 @@
 ## 🚀 Быстрый старт
 1. `docker-compose up -d` (PostgreSQL + Redis)
 2. Запустить TaskTracker.API в Rider
-3. Открыть https://localhost:7043/swagger
+3. Открыть https://localhost:5219/swagger/index.html
 
 ## 📁 Структура
 TaskTracker/
